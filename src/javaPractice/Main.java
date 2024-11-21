@@ -17,8 +17,9 @@ public class Main {
 //		String s2 = "BDF";
 //		Sew first = new Sew(s1, s2);
 		
-		String reduced = "aaabccddd";
-		ReducedString first = new ReducedString(reduced);
+		String reduced = "baaab";
+//		ReducedString first = new ReducedString(reduced);
+		KReducedString first = new KReducedString(reduced, 3);
 	}
 
 }
