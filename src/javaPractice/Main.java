@@ -12,6 +12,8 @@ public class Main {
 //		System.out.println(car1.getBrand());
 		List <Integer> arr = new ArrayList<>(Arrays.asList(2,5,1,4,6,3,7,9,10,8));
 //		Insertion first = new Insertion(arr);
+//		System.out.println(Quicksort.Sort(arr));
+//		Bubblesort.Sort(arr);
 		
 //		String s1 = "ACE";
 //		String s2 = "BDF";
@@ -19,7 +21,7 @@ public class Main {
 		
 		String reduced = "baaab";
 //		ReducedString first = new ReducedString(reduced);
-		KReducedString first = new KReducedString(reduced, 3);
+//		KReducedString first = new KReducedString(reduced, 4);
 	}
 
 }
