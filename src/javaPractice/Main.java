@@ -3,6 +3,7 @@ package javaPractice;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Main {
 
@@ -19,9 +20,14 @@ public class Main {
 //		String s2 = "BDF";
 //		Sew first = new Sew(s1, s2);
 		
-		String reduced = "baaab";
-//		ReducedString first = new ReducedString(reduced);
-//		KReducedString first = new KReducedString(reduced, 4);
+		String str = "baaab";
+//		ReducedString first = new ReducedString(str);
+//		KReducedString first = new KReducedString(str, 4);
+//		System.out.println(Occurance.get(str));
+//		List <Integer> arr2 = new ArrayList<>(Arrays.asList(2,2,4,1,2));
+//		System.out.println(Occurance_Oracle.occurance(arr2));
+		Accessing2D.Start();
+//		System.out.println(arr.stream().filter(a -> a + a == 2).collect(Collectors.toList()));
 	}
 
 }
