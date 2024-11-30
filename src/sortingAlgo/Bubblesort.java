@@ -1,4 +1,4 @@
-package javaPractice;
+package sortingAlgo;
 
 import java.util.List;
 
