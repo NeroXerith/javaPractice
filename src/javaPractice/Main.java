@@ -5,6 +5,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import sortingAlgo.*;
+
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -26,8 +29,19 @@ public class Main {
 //		System.out.println(Occurance.get(str));
 //		List <Integer> arr2 = new ArrayList<>(Arrays.asList(2,2,4,1,2));
 //		System.out.println(Occurance_Oracle.occurance(arr2));
-		Accessing2D.Start();
+//		Accessing2D.Start();
 //		System.out.println(arr.stream().filter(a -> a + a == 2).collect(Collectors.toList()));
+		List <List <Integer>> twoDArr = new ArrayList<>(Arrays.asList(Arrays.asList(11,2,4), Arrays.asList(4,5,6), Arrays.asList(10, 8, -12)));
+//		twoDArr.add(new ArrayList<>() {{
+//			add(11);
+//			add(2);
+//			add(4);
+//		}});
+//		System.out.println(twoDArr);
+//		System.out.println(DiagonalDifference.solve(twoDArr));
+		
+		System.out.println(TimeConvertion.Convert("06:45:54AM"));
+		
 	}
 
 }
