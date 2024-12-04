@@ -42,7 +42,11 @@ public class Main {
 		
 //		System.out.println(TimeConvertion.Convert("06:45:54AM"));
 		List <Integer> socksAr = new ArrayList<>(Arrays.asList(10, 20, 20, 10, 10, 30, 50, 10, 20));
-		System.out.println(PairOfSocks.getPair(9, socksAr));
+//		System.out.println(PairOfSocks.getPair(9, socksAr));
+		
+		
+		System.out.println(DrawingBook.getCount(6, 2));
+	    
 	}
 
 }

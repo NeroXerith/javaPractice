@@ -21,8 +21,10 @@ public class Accessing2D {
 //		System.out.println("Stack Capacity : " + stack.capacity());
 //		System.out.println("Stack Size : " + stack.size());
 		
-		// 2 Ways to add an element in a 2D array
-		// 1st approach implicit approach
+		/*
+		 * 2 Ways to add an element in a 2D array 
+		 * 1st approach implicit approach
+		 */		
 		arr.add(new ArrayList<>()); 
 		arr.get(0).add(2);
 		arr.get(0).add(4);

@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
 public class KReducedString {
 
 	public KReducedString(String word, int k) {
+		// Similar to reduced string but with customized occurrence where in the first one it only check its adjacent
 		Stack<Character> stack = new Stack<>();
 		int ctr = 1;
 

@@ -9,10 +9,13 @@ import java.util.Map;
 public class Occurance_Oracle {
 
 	public static List <List<String>> occurance(List<Integer> arr) {
-		// Collection is {2,2,4,1,2}
-		// return must be in 2D Array, get the element has a lot of duplicates and the least duplicates
-		// e.g. output 2 3
-		//			   1 1        since 2 = 3 and 1 = 1
+		/*
+		 * Collection is {2,2,4,1,2} return must be in 2D Array, get the element has a
+		 * lot of duplicates and the least duplicates 
+		 * e.g. output 2 3 
+		 *             1 1 
+		 *  interpreted as 2 = 3 occurrence and 1 = 1 occurrence
+		 */
 
 		Map <Integer, Integer> ctrDuplicates = new HashMap();
 		for(Integer n : arr) {
