@@ -26,6 +26,8 @@ public class KReducedString {
 		        stack.push(current); // Push new character
 		    }
 		}
+		
+	System.out.println(stack.toString());
     }
 
 }
